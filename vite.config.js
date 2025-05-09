@@ -9,7 +9,8 @@ export default defineConfig(({ mode }) => {
 	const isDev = mode !== "production";
  
 	return {
-	  plugins: [
+		base: '/TicTacToe/',
+		plugins: [
 		 react({
 			babel: {
 			  plugins: isDev ? ["check-prop-types"] : [],
