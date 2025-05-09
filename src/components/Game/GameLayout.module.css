@@ -1,0 +1,25 @@
+.game {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+ }
+ 
+ .newGameButton {
+	padding: 10px 20px;
+	background: #4683c9;
+	color: white;
+	border: none;
+	
+	border-radius: 4px;
+	cursor: pointer;
+ }
+
+ .newGameButton:hover {
+box-shadow: 0 0 16px 1px rgba(0,0,0,0.2);
+}
+
+.newGameButton:active {
+	color: #4683c9;
+	background: white;
+}
